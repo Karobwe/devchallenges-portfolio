@@ -1,0 +1,10 @@
+.title {
+  font-family: var(--font__primary);
+  font-size: 3rem;
+  color: #39ae5f;
+}
+
+.text {
+  font-size: 1.6rem;
+  color: #37f9df;
+}

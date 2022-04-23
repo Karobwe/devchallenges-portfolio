@@ -1,0 +1,12 @@
+:root {
+    --font__primary: 'Jost', sans-serif;
+    --font__secondary: 'Glory', sans-serif;
+}
+
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    font-family: var(--font__secondary);
+    color: #f9f9ff;
+    background-color: #100b2d;
+}
