@@ -1,0 +1,10 @@
+@import "./styles/base";
+@import "./styles/utils";
+
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    font-family: $font-default;
+    color: $gray3;
+    background-color: $light;
+}
