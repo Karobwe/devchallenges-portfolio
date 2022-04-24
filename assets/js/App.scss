@@ -1,12 +1,24 @@
 @import "../styles/utils";
 
-.title {
-  font-family: $font-accent;
-  font-size: 3rem;
-  color: $gray1;
-}
+.container {
+  max-width: clamp(90%, 96%, 540px);
+  margin: $size4 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $size8 $size7;
 
-.text {
-  font-size: 1.6rem;
-  color: $blue;
+  @include media-tablette {
+    max-width: 720px;
+    margin: $size7 auto;
+  }
+
+  @include media-desktop {
+    max-width: clamp(960px, 960px, 1140px);
+    margin: $size10 auto;
+  }
+
+  @include media-widescreen {
+    max-width: 1320px;
+  }
 }

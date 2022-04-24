@@ -1,0 +1,96 @@
+@import "../../styles/utils";
+
+.card {
+  width: $size19;
+
+  &.horizontal {
+    width: $size24;
+
+    @include media-phone {
+      width: $size19;
+    }
+
+    figure {
+      display: flex;
+      flex-direction: row;
+      column-gap: $size7;
+
+      @include media-phone {
+        flex-direction: column;
+        row-gap: $size3;
+      }
+    }
+
+    .profile__picture__container {
+      width: 100%;
+      min-width: $size18;
+    }
+
+    figcaption {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .profile__bio {
+      flex: 0 0 100%;
+
+      @include media-phone {
+        margin-top: $size4;
+        line-height: 1.3em;
+      }
+    }
+  }
+
+  &.vertical {
+    figure {
+      display: flex;
+      flex-direction: column;
+      row-gap: $size3;
+    }
+
+    .profile__bio {
+      margin-top: $size4;
+      line-height: 1.3em;
+    }
+  }
+}
+
+figcaption {
+  display: flex;
+  flex-direction: column;
+  row-gap: $size4;
+}
+
+.profile__identity,
+.profile__contact {
+  display: flex;
+  flex-direction: column;
+  row-gap: $size1;
+}
+
+.profile__name,
+.profile__email,
+.profile__phone {
+  color: $gray1;
+}
+
+.profile__email,
+.profile__phone {
+  display: flex;
+  align-content: center;
+  column-gap: $size2;
+}
+
+.profile__picture__container {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
+.profile__picture {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  border-radius: $size3;
+}

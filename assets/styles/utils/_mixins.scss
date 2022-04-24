@@ -1,10 +1,23 @@
-@mixin media-gte-sm {
-  @media screen and (min-width: 768px) {
+@mixin media-phone {
+  @media screen and (max-width: 768px) {
     @content;
   }
 }
-@mixin media-gte-lg {
-  @media screen and (min-width: 1024px) {
+
+@mixin media-tablette {
+  @media screen and (min-width: 768px) { // and (max-width: 992px)
+    @content;
+  }
+}
+
+@mixin media-desktop {
+  @media screen and (min-width: 992px) { // and (max-width: 1200px)
+    @content;
+  }
+}
+
+@mixin media-widescreen {
+  @media screen and (min-width: 1400px) {
     @content;
   }
 }

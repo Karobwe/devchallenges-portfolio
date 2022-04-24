@@ -21,13 +21,43 @@ $gray3: rgba(130, 130, 130, 1);
 $light: rgba(242, 242, 242, 1);
 $blue:    rgba(47, 128, 237, 1);
 
-// * * * *
-// Others
-// * * * *
+// * * *
+// Sizes
+// * * *
+$size1: 0.25em;     // 4px
+$size2: 0.5em;      // 8px
+$size3: 0.75em;     // 12px
+$size4: 1em;        // 16px
+$size5: 1.25em;     // 20px
+$size6: 1.5em;      // 24px
+$size7: 2em;        // 32px
+$size8: 2.5em;      // 40px
+$size9: 3em;        // 48px
+$size10: 4em;       // 64px
+$size11: 6em;       // 96px
+$size12: 8em;       // 128px
+$size13: 10em;      // 160px
+$size14: 11em;      // 176px
+$size15: 12em;      // 192px
+$size16: 13em;      // 208px
+$size17: 14em;      // 224px
+$size18: 16em;      // 256px
+$size19: 20em;      // 320px
+$size20: 30em;      // 480px
+$size21: 36em;      // 576px
+$size22: 48em;      // 768px
+$size23: 50em;      // 800px
+$size24: 60em;      // 960px
+$size25: 62em;      // 992px
+$size26: 64em;      // 1024px
+$size27: 70em;      // 1120px
+$size28: 75em;      // 1200px
+$size29: 80em;      // 1280px
+$size30: 90em;      // 1440px
+$size31: 100em;     // 1600px
 
-// border-radius
-$radius-normal: em(12px);
-$radius-medium: em(16px);
-
-// position
-$container-left-offset: rem(30px);
+// * * * *
+// Shadow
+// * * * *
+$shadow-color: 220 3% 15%;
+$shadow-strength: 1%;
