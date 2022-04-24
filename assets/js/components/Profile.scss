@@ -24,6 +24,22 @@
     .profile__picture__container {
       width: 100%;
       min-width: $size18;
+      transition: all 500ms ease;
+
+      &:hover {
+        transform: rotate3d(4, -1, .125, .045turn);
+
+        img {
+          box-shadow: 0 3px 8px 8px rgb(0 0 0 / 0.2);
+          filter: saturate(1);
+        }
+      }
+
+      img {
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        filter: saturate(.8);
+        transition: all 500ms ease;
+      }
     }
 
     figcaption {
@@ -31,6 +47,9 @@
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: space-between;
+      align-content: flex-start;
+      align-items: center;
+      row-gap: $size7;
     }
 
     .profile__bio {
@@ -61,6 +80,18 @@ figcaption {
   display: flex;
   flex-direction: column;
   row-gap: $size4;
+}
+
+.profile__identity {
+  font-family: $font-accent;
+}
+
+.profile__name {
+  font-weight: 700;
+}
+
+.profile__title {
+  font-weight: 500;
 }
 
 .profile__identity,

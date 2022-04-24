@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 import ReactDOM from 'react-dom';
 
-import './Card.scss';
+import "./Card.scss";
 
 /**
  * Represent a UI card

@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 import ReactDOM from 'react-dom';
 
-import './Profile.scss';
+import "./Profile.scss";
 import { Card } from './Card';
 
 export class Profile extends React.Component {
-    cardDirection = 'vertical';
+    cardDirection = "vertical";
 
     render() {
         const bioParagraphs = this.props.user.bio.map((paragraph) =>

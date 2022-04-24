@@ -4,9 +4,10 @@
   padding: $size4;
   border-radius: $size3;
   background-color: $white;
-  box-shadow: 0 -1px 3px 0 hsl(var($shadow-color) / calc(var($shadow-strength) + 2%)),
-  0 1px 2px -5px hsl(var($shadow-color) / calc(var($shadow-strength) + 2%)),
-  0 2px 5px -5px hsl(var($shadow-color) / calc(var($shadow-strength) + 4%)),
-  0 4px 12px -5px hsl(var($shadow-color) / calc(var($shadow-strength) + 5%)),
-  0 12px 15px -5px hsl(var($shadow-color) / calc(var($shadow-strength) + 7%));
+  box-shadow: $shadow1;
+  transition: box-shadow .5s ease;
+
+  &:hover {
+    box-shadow: $shadow2;
+  }
 }
