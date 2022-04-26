@@ -1,0 +1,9 @@
+@import "../../styles/utils";
+
+.projects {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: $size6 $size7;
+}

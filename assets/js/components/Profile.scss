@@ -1,5 +1,7 @@
 @import "../../styles/utils";
 
+// TODO: Isolate common code used by other components with same structure such as Project (Card>figure>img+figcaption...)
+
 .card {
   width: $size19;
 
@@ -47,7 +49,7 @@
       }
     }
 
-    figcaption {
+    .profile__content {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
@@ -81,7 +83,7 @@
   }
 }
 
-figcaption {
+.profil__content {
   display: flex;
   flex-direction: column;
   row-gap: $size4;
@@ -133,5 +135,5 @@ figcaption {
   width: auto;
   height: auto;
   object-fit: cover;
-  border-radius: $size3;
+  border-radius: $radius;
 }

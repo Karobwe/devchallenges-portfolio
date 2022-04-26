@@ -19,8 +19,8 @@ export class Profile extends React.Component {
     }
 
     render() {
-        const bioParagraphs = this.props.user.bio.map((paragraph) =>
-            <div>
+        const bioParagraphs = this.props.user.bio.map((paragraph, index) =>
+            <div key={index}>
                 <p>{paragraph}</p>
                 {/* Add line break on vertical layout after each paragraph, except the last one */}
                 { this.cardDirection === "vertical" && paragraph !== this.props.user.bio[this.props.user.bio.length - 1] && (<br/>) }
@@ -34,7 +34,7 @@ export class Profile extends React.Component {
                         <img src={this.props.user.picture.url} alt={this.props.user.picture.altText} className="profile__picture" />
                     </div>
 
-                    <figcaption>
+                    <figcaption className="profile__content">
                         <div className="profile__identity">
                             <h1 className="profile__name">{this.props.user.name}</h1>
                             <h2 className="profile__title">{this.props.user.title}</h2>

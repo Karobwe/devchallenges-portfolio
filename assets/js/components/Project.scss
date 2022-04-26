@@ -1,0 +1,76 @@
+@import "../../styles/utils";
+
+.project {
+  max-height: $size19;
+  display: flex;
+
+  .project__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: $size3;
+  }
+}
+
+.project__picture__container {
+  width: $size24;
+  overflow: hidden;
+  border-radius: $size1;
+  box-shadow: 1px 1px 3px 0 $gray3;
+  transition: all 300ms ease;
+
+  &:hover {
+    transform: scale(1.005, 1.005);
+  }
+}
+
+.project__picture {
+  object-fit: cover;
+}
+
+.project__tags {
+  padding: 0;
+  display: flex;
+  column-gap: $size2;
+  list-style: none;
+}
+
+.tag {
+  &:before {
+    content: "#";
+    margin-right: .025em;
+  }
+}
+
+.project__links {
+  margin-top: auto;
+  display: flex;
+  column-gap: $size3;
+
+  a {
+    display: inline-block;
+    padding: $size1 $size6;
+    text-decoration: none;
+    border-radius: $size2;
+    transition: all 300ms ease-out;
+  }
+}
+
+.project__demo {
+  color: $white;
+  background-color: $blue;
+
+  &:hover {
+    background-color: adjust-hue($blue, 4);
+  }
+}
+
+.project__code {
+  color: $blue;
+  background-color: $white;
+  border: solid 1px $blue;
+
+  &:hover {
+    background-color: lighten($blue, 42);
+  }
+}

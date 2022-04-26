@@ -75,3 +75,9 @@ $shadow2: 0 -1px 2px 0 hsl(var($shadow-color) / calc(var($shadow-strength) + 2%)
 0 22px 18px -2px hsl(var($shadow-color) / calc(var($shadow-strength) + 5%)),
 0 41px 33px -2px hsl(var($shadow-color) / calc(var($shadow-strength) + 6%)),
 0 100px 80px -2px hsl(var($shadow-color) / calc(var(-$shadow-strength) + 7%));
+
+// * * * *
+// Border
+// * * * *
+$border: solid 1px $light;
+$radius: $size3;
