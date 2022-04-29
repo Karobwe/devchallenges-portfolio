@@ -28,7 +28,7 @@ export class Profile extends React.Component {
         );
 
         return (
-            <Card direction="horizontal">
+            <Card direction={this.props.direction === "horizontal" ? "horizontal" : "vertical"}>
                 <figure className="profile">
                     <div className="profile__picture__container" onMouseEnter={(e) => this.changeTransformFunction(e)}>
                         <img src={this.props.user.picture.url} alt={this.props.user.picture.altText} className="profile__picture" />

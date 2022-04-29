@@ -10,7 +10,7 @@ export class Project extends React.Component {
 
     render() {
         return (
-            <Card direction="horizontal">
+            <Card direction={this.props.direction === "horizontal" ? "horizontal" : "vertical"}>
                 <figure className="project">
                     <div className="project__picture__container">
                         <img src={this.props.project.picture.url} alt={this.props.project.picture.altText} className="project__picture" />
