@@ -22,6 +22,12 @@
     }
   }
 
+  &.horizontal {
+    .tag {
+      flex: initial;
+    }
+  }
+
   .project {
     //max-height: $size19;
     //display: flex;
