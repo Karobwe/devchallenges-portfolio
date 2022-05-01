@@ -118,5 +118,77 @@
         "code": "https://github.com/Karobwe/devchallenges-edie-homepage"
       }
     }
+  ],
+  "skills": [
+    {
+      "domain": "Front End",
+      "subSkills": [
+        {
+          "title": "React",
+          "value": 65,
+          "showValue": false
+        },
+        {
+          "title": "Javascript",
+          "value": 80,
+          "showValue": false
+        },
+        {
+          "title": "CSS",
+          "value": 95,
+          "showValue": false
+        },
+        {
+          "title": "Vue",
+          "value": 75,
+          "showValue": false
+        },
+        {
+          "title": "Redux",
+          "value": 60,
+          "showValue": false
+        },
+        {
+          "title": "React Native",
+          "value": 70,
+          "showValue": false
+        }
+      ]
+    },
+    {
+      "domain": "Back End",
+      "subSkills": [
+        {
+          "title": "PHP",
+          "value": 85,
+          "showValue": false
+        },
+        {
+          "title": "MySQL",
+          "value": 50,
+          "showValue": false
+        },
+        {
+          "title": "Node Js",
+          "value": 75,
+          "showValue": false
+        },
+        {
+          "title": "Mongo DB",
+          "value": 30,
+          "showValue": false
+        },
+        {
+          "title": "Laravel",
+          "value": 60,
+          "showValue": false
+        },
+        {
+          "title": "Symfony",
+          "value": 70,
+          "showValue": false
+        }
+      ]
+    }
   ]
 }
