@@ -14,7 +14,7 @@ export class Card extends React.Component {
 
     render() {
         return (
-            <div className={`card ${this.props.direction === 'vertical' ? ' vertical' : 'horizontal'}`.trim()}>
+            <div className={`card ${this.props.direction === 'vertical' ? ' vertical' : 'horizontal'}`.trim()} style={this.props.style}>
                 {this.props.children}
             </div>
         );
