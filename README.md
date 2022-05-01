@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">Portfolio</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://nimble-smakager-12ad43.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/Karobwe/devchallenges-portfolio">
       Solution
     </a>
     <span> | </span>
@@ -64,26 +64,33 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 <!-- Example: -->
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. Alternatively, you can use [Yarn](https://yarnpkg.com/) instead of npm. From your command line:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+$ git clone https://github.com/Karobwe/devchallenges-portfolio
 
 # Install dependencies
-$ npm install
+$ yarn install
 
 # Run the app
-$ npm start
+# launch a local server
+$ start start
+
+# build assets 
+$ yarn build
 ```
 
 ## Acknowledgements
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For example: -->
 
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
+- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [Some Open Props's variables](https://open-props.style/)
+- [Random Numbers in CSS](https://css-tricks.com/random-numbers-css/)
+- [React onHover Event Handling (with Examples)](https://upmostly.com/tutorials/react-onhover-event-handling-with-examples)
+- [React - onHover event example](https://dirask.com/posts/React-onHover-event-example-jmygNj#:~:text=In%20React%20there%20is%20no%20onHover%20event%20handler%2C,leaves%20the%20element%2C%20it%20will%20be%20onMouseLeave%20event.)
 
 ## Contact
 
