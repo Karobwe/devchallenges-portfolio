@@ -1,0 +1,43 @@
+@import "../../styles/utils";
+
+.experience {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  column-gap: $size4;
+
+  .experience__logo__container {
+    width: $size11;
+    aspect-ratio: 1/1;
+    padding: $size3;
+  }
+
+  .experience__logo {
+    object-fit: contain;
+  }
+
+  .experience__details {
+    display: flex;
+    flex-direction: column;
+    row-gap: $size1;
+  }
+
+  .experience__job {
+    color: $gray1;
+  }
+
+  .experience__description {
+    flex: 1 1 100%;
+    // .experience__logo__container's width + .experience's column gap
+    // Overridden in ExperienceList.js for horizontal layout
+    margin-left: $size11 + $size4;
+  }
+}
+
+.card {
+  &.horizontal {
+    .experience {
+      max-width: $size20;
+    }
+  }
+}

@@ -205,5 +205,46 @@
       },
       "category": "Blog"
     }
+  ],
+  "experiences": [
+    {
+      "job": "Front-end developer",
+      "description": "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.",
+      "startAt": "Feb 2022",
+      "endAt": "Current",
+      "employer": {
+        "name": "Aurelia",
+        "logo": {
+          "url": "./build/images/aurelia.svg",
+          "altText": ""
+        }
+      }
+    },
+    {
+      "job": "Full-stack developer",
+      "description": "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.",
+      "startAt": "Nov 2020",
+      "endAt": "Dec 2021",
+      "employer": {
+        "name": "Netlify",
+        "logo": {
+          "url": "./build/images/netlify.svg",
+          "altText": ""
+        }
+      }
+    },
+    {
+      "job": "Junior front-end developer",
+      "description": "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.",
+      "startAt": "Mar 2018",
+      "endAt": "Oct 2020",
+      "employer": {
+        "name": "Shopify",
+        "logo": {
+          "url": "./build/images/shopify.svg",
+          "altText": ""
+        }
+      }
+    }
   ]
 }

@@ -1,0 +1,37 @@
+@import "../../styles/utils";
+
+.experiences {
+  display: flex;
+  flex-direction: column;
+  row-gap: $size8;
+  //max-width: $size20; // Not necessary since ExperienceList's Card have an inline max-width (see Experience.js)
+
+  .experiences__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: $size8;
+  }
+}
+
+.card {
+  &.horizontal {
+    .experiences {
+      column-gap: $size10;
+    }
+
+    .experiences__list {
+      flex-direction: row;
+      column-gap: $size2;
+    }
+
+
+    // Both bellow rules are complementary
+    .experience {
+      column-gap: 0; // Override gap defined in Experience.js for vertical  layout
+    }
+
+    .experience__description {
+      margin-left: $size11; // Override margin defined in Experience.js for vertical  layout
+    }
+  }
+}
