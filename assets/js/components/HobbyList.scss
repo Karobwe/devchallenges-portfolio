@@ -1,0 +1,23 @@
+@import "../../styles/utils";
+
+.card {
+  .hobbies {
+    display: flex;
+    flex-direction: column;
+    row-gap: $size6;
+  }
+
+  .hobbies__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: $size7;
+  }
+
+  &.horizontal {
+    .hobbies__list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: $size8;
+    }
+  }
+}

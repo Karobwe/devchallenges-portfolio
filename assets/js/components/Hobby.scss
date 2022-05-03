@@ -1,0 +1,25 @@
+@import "../../styles/utils";
+
+.card {
+  .hobby {
+    display: flex;
+    flex-direction: column;
+    row-gap: $size3;
+  }
+
+  .hobby__picture__container {
+    max-height: $size12;
+    overflow: hidden;
+    border-radius: $size3;
+  }
+
+  .hobby__picture {
+    object-fit: contain;
+  }
+
+  .hobby__details {
+    display: flex;
+    flex-direction: column;
+    row-gap: $size1;
+  }
+}

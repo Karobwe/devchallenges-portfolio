@@ -9,6 +9,8 @@ import {SkillList} from "./SkillList";
 import {BlogPost} from "./BlogPost";
 import {Experience} from "./Experience";
 import {ExperienceList} from "./ExperienceList";
+import {Hobby} from "./Hobby";
+import {HobbyList} from "./HobbyList";
 
 const data = require('../data.json');
 
@@ -30,6 +32,9 @@ export class Showcase extends React.Component {
                 <Experience experience={data.experiences[0]} />
                 <ExperienceList experiences={data.experiences} direction="vertical" />
                 <ExperienceList experiences={data.experiences} direction="horizontal" />
+                <Hobby hobby={data.hobbies[0]} />
+                <HobbyList hobbies={data.hobbies} direction="horizontal" />
+                <HobbyList hobbies={data.hobbies} direction="vertical" />
             </>
         );
     }

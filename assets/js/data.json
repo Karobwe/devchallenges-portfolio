@@ -246,5 +246,31 @@
         }
       }
     }
+  ],
+  "hobbies": [
+    {
+      "title": "Pottery",
+      "description": "Ancient, practical, and beautiful, pottery is an ideal way to spend time making something I can use and admire.",
+      "picture": {
+        "url": "https://images.pexels.com/photos/5642023/pexels-photo-5642023.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "altText": ""
+      }
+    },
+    {
+      "title": "Calligraphy",
+      "description": "Calligraphy brings out the beauty of letterforms in the best possible way.",
+      "picture": {
+        "url": "https://images.pexels.com/photos/4348084/pexels-photo-4348084.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+        "altText": ""
+      }
+    },
+    {
+      "title": "Growing Vegetables",
+      "description": "I love the satisfaction of seeing them grow from seedling to maturity.",
+      "picture": {
+        "url": "https://images.pexels.com/photos/4503268/pexels-photo-4503268.jpeg?auto=compress&cs=tinysrgb&dpr=2&dl=pexels-cottonbro-4503268.jpg&fm=jpg",
+        "altText": ""
+      }
+    }
   ]
 }
