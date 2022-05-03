@@ -13,7 +13,6 @@ export class SkillList extends React.Component {
 
     constructor(props) {
         super(props);
-        console.log(this.skillList)
     }
 
     render() {
