@@ -1,0 +1,26 @@
+@import "../../styles/utils";
+
+.filter__item {
+  display: inline-block;
+  padding: $size2 $size5;
+  color: $gray2;
+  border: solid 1px $gray2;
+  border-radius: $size3;
+  background-color: transparent;
+  transition: all 200ms ease-out;
+
+  &:hover {
+    color: $blue;
+    border-color: $blue;
+  }
+
+  &.active {
+    color: $white;
+    border: solid 1px $blue;
+    background-color: $blue;
+
+    &:hover {
+      background-color: darken($blue, 5%);
+    }
+  }
+}

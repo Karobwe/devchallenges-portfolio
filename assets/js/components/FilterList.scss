@@ -1,0 +1,7 @@
+@import "../../styles/utils";
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: $size4;
+}

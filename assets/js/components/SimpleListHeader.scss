@@ -1,1 +1,7 @@
 @import "../../styles/utils";
+
+.simple-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: $size4;
+}
