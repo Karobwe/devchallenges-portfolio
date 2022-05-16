@@ -91,6 +91,7 @@ $ yarn build
 - [Random Numbers in CSS](https://css-tricks.com/random-numbers-css/)
 - [React onHover Event Handling (with Examples)](https://upmostly.com/tutorials/react-onhover-event-handling-with-examples)
 - [React - onHover event example](https://dirask.com/posts/React-onHover-event-example-jmygNj#:~:text=In%20React%20there%20is%20no%20onHover%20event%20handler%2C,leaves%20the%20element%2C%20it%20will%20be%20onMouseLeave%20event.)
+- [How to Use Variables within Classes](https://www.pluralsight.com/guides/how-to-use-variables-within-classes)
 
 ## Contact
 
