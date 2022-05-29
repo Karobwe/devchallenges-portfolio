@@ -6,27 +6,24 @@ export class PageItem extends React.Component {
 
     constructor(props) {
         super(props);
+        this.handleClick = this.handleClick.bind(this);
 
         this.state = {
             isActive: false,
         }
     }
 
-    pageItemClickHandler = () => {
-        this.setState((state) => {
-            return {isActive: !state.isActive};
-        });
-
-        this.props.onPageChange();
+    handleClick = () => {
+        this.props.onPageChange(this.props.text);
     }
 
     render() {
+        let active = `page__item ${this.state.isActive ? 'active' : ''}`.trim();
+        let text = this.props.text;
+
         return (
-            <div
-                className={`page__item ${this.state.isActive ? 'active' : ''}`.trim()}
-                onClick={() => this.pageItemClickHandler()}
-            >
-                <a href={"#"} className={"page__item__link"}>{this.props.text}</a>
+            <div className={active} onClick={this.handleClick}>
+                <a href={"#"} className={"page__item__link"}>{text}</a>
             </div>
         );
     }

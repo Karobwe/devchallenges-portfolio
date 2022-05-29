@@ -61,8 +61,8 @@ export class Showcase extends React.Component {
                 {/*<SimpleListHeader title={"Projects"} list={data.projects}>*/}
                 {/*    <FilterList projects={data.projects} filters={this.filters} />*/}
                 {/*</SimpleListHeader>*/}
-                <PageItem text={1} />
-                <Pagination pageItems={data.projects} itemsPerPage={3} currentPage={1} />
+                <PageItem text={1} onPageChange={() => {}} />
+                <Pagination items={data.projects} count={3} page={1} />
             </>
         );
     }
